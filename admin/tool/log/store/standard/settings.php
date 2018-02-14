@@ -32,8 +32,9 @@ if ($hassiteconfig) {
 
     $options = array(
         0    => new lang_string('neverdeletelogs'),
-        1000 => new lang_string('numdays', '', 1000),
-        365  => new lang_string('numdays', '', 365),
+        1095 => new lang_string('numyears', '', 3),
+        730  => new lang_string('numyears', '', 2),
+        365  => new lang_string('numyear', '', 1),
         180  => new lang_string('numdays', '', 180),
         150  => new lang_string('numdays', '', 150),
         120  => new lang_string('numdays', '', 120),
